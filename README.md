@@ -35,3 +35,15 @@ The environment variables should be added mannually when use fnm to install:
 ```
 $env:PATH += "C:\Users\<USERNAME>\AppData\Roaming\fnm\node-versions\v21.0.0\installation"
 ```
+
+To use hexo, specifically butterfly
+```
+npm install hexo --save
+
+npm install hexo-renderer-pug hexo-renderer-stylus --save
+
+hexo clean
+hexo generate
+hexo server
+hexo deploy
+```
