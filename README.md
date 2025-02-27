@@ -47,3 +47,7 @@ hexo generate
 hexo server
 hexo deploy
 ```
+I found that the theme files do not move from the original local repository, so we need to clone it again
+```
+git clone -b master https://github.com/jerryc127/hexo-theme-butterfly.git themes/butterfly
+```
