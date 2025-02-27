@@ -38,7 +38,7 @@ $env:PATH += "C:\Users\<USERNAME>\AppData\Roaming\fnm\node-versions\v21.0.0\inst
 
 To use hexo, specifically butterfly
 ```
-npm install hexo --save
+npm install -g hexo-cli
 
 npm install hexo-renderer-pug hexo-renderer-stylus --save
 
